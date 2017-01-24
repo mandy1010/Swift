@@ -13,14 +13,14 @@ struct BirthRecord {
 }
 
 //build birth record based on mother information
-let jessica = BirthRecord(motherName: "JESSICA ALBA", fatherName: "AARON HANK", dateOfBirth: "24 JAN 2017", timeOfBirth: "10:13 PM", weight: "3 KG", gender: "F")
+let jessicaAlba = BirthRecord(motherName: "JESSICA ALBA", fatherName: "AARON HANK", dateOfBirth: "24 JAN 2017", timeOfBirth: "10:13 PM", weight: "3 KG", gender: "F")
 
-let laura = BirthRecord(motherName: "LAURA ANTONIOU", fatherName: "BRIAN ALDISS", dateOfBirth: "23 JAN 2017", timeOfBirth: "8:30 AM", weight: "4.5 KG", gender: "M")
+let lauraAntoniou = BirthRecord(motherName: "LAURA ANTONIOU", fatherName: "BRIAN ALDISS", dateOfBirth: "23 JAN 2017", timeOfBirth: "8:30 AM", weight: "4.5 KG", gender: "M")
 
-let margaret = BirthRecord(motherName: "MARGARET ATWOOD", fatherName: nil, dateOfBirth: "22 JAN 2017", timeOfBirth: "10:15 PM", weight: "2.5 KG", gender: "M")
+let margaretAtwood = BirthRecord(motherName: "MARGARET ATWOOD", fatherName: nil, dateOfBirth: "22 JAN 2017", timeOfBirth: "10:15 PM", weight: "2.5 KG", gender: "M")
 
 //print record for a specific person
-var mother = jessica
+var mother = jessicaAlba
 print(mother)
 print(" ")
 print("\(mother.motherName) \'s baby is born on " + mother.dateOfBirth)
