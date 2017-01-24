@@ -1,5 +1,5 @@
 /*
-Birth Registration
+Birth Record
 Author: Mandy H.
 Date: 24 Jan 2017
 Programme: about birth record in the hospital
